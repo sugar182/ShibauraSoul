@@ -5,23 +5,24 @@
     build-mode="FULL"
     density="420dpi"
     format="10"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.1.4"
-    timestamp="1537098395248"
+    timestamp="1537175060214"
     token="6643679122050440667"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="999" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="495" />
+        duration="65" />
     <task
         name="verifier"
-        duration="8" />
+        duration="63" />
 
     <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -33,28 +34,28 @@
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
+        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
+        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -65,8 +66,9 @@
 
     <build
         build-mode="FULL"
-        timestamp="1537098395248"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1537175060214"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
@@ -77,28 +79,28 @@
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\androidpg\ShibauraSoul3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"

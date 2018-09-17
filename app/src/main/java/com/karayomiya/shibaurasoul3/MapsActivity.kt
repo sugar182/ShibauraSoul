@@ -1,5 +1,7 @@
 package com.karayomiya.shibaurasoul3
 
+import android.app.ActivityOptions
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -44,6 +46,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(shibaura))
 
         var zoom: Float = 1F
+        var markerTapCnt = 0
         loadMap(zoom)
         setTitle("地図をタップして！")
 
@@ -61,6 +64,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             } else {
 
             }
+        }
+
+        mMap.setOnMarkerClickListener { tapMarker ->
+            markerTapCnt++
+            if (markerTapCnt >= 2) {
+                val intent = Intent(this, SubActivity::class.java)
+                startActivity(intent,
+                ActivityOptions.makeSceneTransitionAnimation(this@MapsActivity).toBundle())
+            }
+            return@setOnMarkerClickListener false
         }
         // なにかされても元に戻す
         mMap.setOnMapLongClickListener { loadMap(zoom) }
